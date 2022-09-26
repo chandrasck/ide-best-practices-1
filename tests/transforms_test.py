@@ -45,6 +45,7 @@ def test_pivot(raw_input_df):
 
 
 # Test column cleaning.
+# commenting for cicd-test branch
 def test_clean_cols(colnames_df):
     cleaned = clean_spark_cols(colnames_df)
     cols_w_spaces = cleaned.filter(regex=(" "))
